@@ -1,0 +1,26 @@
+
+.Navbar {
+    color:rgb(225, 209, 209); 
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .logo {
+    height: 50px;
+    padding: 11px;
+    margin: auto;
+  }
+  
+
+  .dark-mode .Navbar {
+    background-color: #333;
+  }
+  
+  .dark-mode .logo {
+    filter: invert(1);
+  }
+  .button{
+    background-color: rgb(202, 203, 208)
+  }

@@ -1,0 +1,17 @@
+.App {
+  margin: 0 auto;
+  padding: 10px;
+  width: 350px;
+}
+
+body {
+  background-color: #fff; 
+  color: #000; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+
+body.dark-mode {
+  background-color: #333; 
+  color: #fff; 
+}
